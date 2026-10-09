@@ -1,0 +1,8 @@
+PrimateBehaviorAI Studio 4.8.0 - Research prototype / Windows build-ready source
+
+2026-10-09: Source compatibility: Python 3.8 AST/compile checks performed.
+Automated headless tests: includes preflight policy, review workflow, audit, ROI, template tests.
+Windows GUI: NOT validated in this Linux environment.
+Windows Setup.exe: NOT built here. Run the included GitHub Actions Windows build workflow.
+USB/DirectShow: real device preflight, performance and multi-camera stability require Windows hardware.
+Expert-labeled AI accuracy and long-term power-failure recovery: NOT certified.

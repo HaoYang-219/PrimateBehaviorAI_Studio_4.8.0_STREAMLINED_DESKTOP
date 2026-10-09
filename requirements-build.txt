@@ -1,0 +1,2 @@
+# Build-time tools compatible with Python 3.8.x
+pyinstaller==5.13.2

@@ -1,0 +1,9 @@
+.buildvenv/
+dist/
+build/
+installer_output/
+__pycache__/
+*.pyc
+*.spec
+workspace/*
+!workspace/README.txt

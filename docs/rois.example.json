@@ -1,0 +1,25 @@
+{
+  "roi_format_version": 5,
+  "image_width": 1920,
+  "image_height": 1080,
+  "reference_time_s": 1.0,
+  "viewpoint": "right_profile",
+  "regions": {
+    "whole_body": {"polygon": [[400,100],[1400,100],[1400,1050],[400,1050]], "visibility": "visible"},
+    "head": {"polygon": [[800,120],[1150,120],[1150,430],[800,430]], "visibility": "visible"},
+    "left_eye": {"polygon": [[960,230],[970,230],[970,240],[960,240]], "visibility": "invisible"},
+    "right_eye": {"polygon": [[980,190],[1060,190],[1060,260],[980,260]], "visibility": "visible"},
+    "torso": {"polygon": [[700,400],[1200,400],[1200,900],[700,900]], "visibility": "visible"},
+    "left_upper_limb": {"polygon": [[650,450],[900,450],[900,750],[650,750]], "visibility": "partial"},
+    "right_upper_limb": {"polygon": [[850,430],[1150,430],[1150,780],[850,780]], "visibility": "visible"},
+    "left_lower_limb": {"polygon": [[700,650],[950,650],[950,1050],[700,1050]], "visibility": "partial"},
+    "right_lower_limb": {"polygon": [[900,650],[1200,650],[1200,1050],[900,1050]], "visibility": "visible"}
+  },
+  "tracking": {
+    "enabled": true,
+    "mode": "accuracy",
+    "eye_parent": "head",
+    "visibility_gating": true,
+    "viewpoint_aware": true
+  }
+}
